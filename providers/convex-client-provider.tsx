@@ -22,7 +22,7 @@ export const ConvexClientProvider = ({
   children,
 }: ConvexClientProviderProps) => {
   return (
-    <ClerkProvider publishableKey="pk_test_Ymxlc3NlZC1tYWNhdy00OC5jbGVyay5hY2NvdW50cy5kZXYk">
+    <ClerkProvider>
       <ConvexProviderWithClerk useAuth={useAuth} client={convex}>
         <Unauthenticated>
           <SignInButton />
