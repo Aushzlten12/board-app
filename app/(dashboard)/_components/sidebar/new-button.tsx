@@ -30,7 +30,7 @@ export const NewButton = () => {
         </div>
       </DialogTrigger>
       <DialogContent className="p-0 border-none bg-transparent w-fit fixed">
-        <CreateOrganization />
+        <CreateOrganization routing="hash" />
         <DialogClose asChild>
           <Button type="button" variant="outline">
             Close
